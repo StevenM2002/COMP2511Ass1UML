@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T09:49:14.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="tA0nkGkDOCk56-_-_xHD" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T10:26:51.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="uYBGQT41vP-FMhuU6ZxG" version="20.0.1" type="github">
   <diagram id="JS3hQXzzDqp8MdbZ3Wn3" name="Page-1">
-    <mxGraphModel dx="2652" dy="2075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3199" dy="2347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,16 +110,16 @@
           <mxGeometry y="78" width="200" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JWxl60ZRawzX6B9whk_o-5" value="FileManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="-110" width="240" height="104" as="geometry" />
+          <mxGeometry x="565" y="-110" width="295" height="150" as="geometry" />
         </mxCell>
         <mxCell id="JWxl60ZRawzX6B9whk_o-6" value="- files: ArrayList&lt;File&gt;&#xa;- filesTransferring: ArrayList&lt;Pipeline&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JWxl60ZRawzX6B9whk_o-5" vertex="1">
-          <mxGeometry y="26" width="240" height="44" as="geometry" />
+          <mxGeometry y="26" width="295" height="44" as="geometry" />
         </mxCell>
         <mxCell id="JWxl60ZRawzX6B9whk_o-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="JWxl60ZRawzX6B9whk_o-5" vertex="1">
-          <mxGeometry y="70" width="240" height="8" as="geometry" />
+          <mxGeometry y="70" width="295" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JWxl60ZRawzX6B9whk_o-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JWxl60ZRawzX6B9whk_o-5" vertex="1">
-          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        <mxCell id="JWxl60ZRawzX6B9whk_o-8" value="+ addFile(file: File): void&#xa;+ startTransfer(file: File, destination: Entity): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="JWxl60ZRawzX6B9whk_o-5" vertex="1">
+          <mxGeometry y="78" width="295" height="72" as="geometry" />
         </mxCell>
         <mxCell id="JWxl60ZRawzX6B9whk_o-13" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="JWxl60ZRawzX6B9whk_o-5" target="JWxl60ZRawzX6B9whk_o-1" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -172,8 +172,7 @@
             <mxPoint x="860" y="20" as="sourcePoint" />
             <mxPoint x="1010" y="20" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="840" />
-              <mxPoint x="950" />
+              <mxPoint x="950" y="4" />
             </Array>
           </mxGeometry>
         </mxCell>
