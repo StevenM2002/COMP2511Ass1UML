@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T11:57:22.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="dn5sAJGk6T3J6_vdFp4G" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T11:59:22.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="H3tDS9J9ttO7gTyhzDqN" version="20.0.1" type="github">
   <diagram id="JS3hQXzzDqp8MdbZ3Wn3" name="Page-1">
     <mxGraphModel dx="2408" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -250,16 +250,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZfkWlrgMxRxTjQ3l1lfV-25" value="BlackoutController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-480" width="340" height="86" as="geometry" />
+          <mxGeometry x="141" y="-590" width="399" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZfkWlrgMxRxTjQ3l1lfV-26" value="- allEntities: ArrayList&lt;Entity&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZfkWlrgMxRxTjQ3l1lfV-25" vertex="1">
-          <mxGeometry y="26" width="340" height="26" as="geometry" />
+          <mxGeometry y="26" width="399" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZfkWlrgMxRxTjQ3l1lfV-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ZfkWlrgMxRxTjQ3l1lfV-25" vertex="1">
-          <mxGeometry y="52" width="340" height="8" as="geometry" />
+          <mxGeometry y="52" width="399" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZfkWlrgMxRxTjQ3l1lfV-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZfkWlrgMxRxTjQ3l1lfV-25" vertex="1">
-          <mxGeometry y="60" width="340" height="26" as="geometry" />
+        <mxCell id="ZfkWlrgMxRxTjQ3l1lfV-28" value="+ createDevice(deviceId: String, type: String, position: Angle): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZfkWlrgMxRxTjQ3l1lfV-25" vertex="1">
+          <mxGeometry y="60" width="399" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
